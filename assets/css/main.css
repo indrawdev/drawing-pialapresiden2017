@@ -1,0 +1,107 @@
+body {
+	font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+ol.simple_with_animation li.placeholder {
+  position: relative;
+  /** More li styles **/
+}
+ol.simple_with_animation li.placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}
+
+ol.simple_with_animation {
+    padding: 7px;
+}
+.navbar {
+	background-color: #030408;
+}
+.navbar-brand {
+	color: #ffffff !important;
+}
+.navbar-brand {
+  	padding: 0px;
+}
+.navbar-brand>img {
+  	padding: 7px;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff !important;
+}
+h1.title {
+	font-family: "Roboto Condensed","Arial Narrow",sans-serif;
+	text-align: center;
+    font-size: 4.6em;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #030408;
+}
+h2.title {
+	font-family: "Roboto Condensed","Arial Narrow",sans-serif;
+	text-align: center;
+	font-size: 2.6em;
+    font-weight: 400;
+    line-height: 0.75;
+    color: #030408;
+}
+.heading-1 {
+	background-color: #ca0b10 !important;
+	color: #ffffff !important;
+}
+.heading-2 {
+	background-color: #ca0b10 !important;
+	color: #ffffff !important;
+}
+.heading-3 {
+	background-color: #ca0b10 !important;
+	color: #ffffff !important;	
+}
+.heading-4 {
+	background-color: #ca0b10 !important;
+	color: #ffffff !important;	
+}
+.bg-knock-out {
+  background: url('../images/bg-knock-out.png');
+}
+.panel-heading {
+	font-family: "Roboto Condensed","Arial Narrow",sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+}
+ol.vertical li {
+    background: #eeeeee none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: #000000;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+li {
+    line-height: 18px;
+}
+.main-footer-content {
+	background-color: #c90c12;
+	padding: 15px 0;
+}
+.copyright {
+    background: #030408 none repeat scroll 0 0;
+    font-size: 90%;
+    margin: 0;
+    padding: 0.8em;
+    text-align: center;
+    color: #ffffff;
+}
